@@ -31,5 +31,12 @@
 *.out
 *.app
 
+# Images
+*.png
+*.jpg
+*.ppm
+*.pdf
+
+# IDE/Editor files
 .vscode
 .idea
