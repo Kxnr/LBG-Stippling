@@ -22,7 +22,7 @@
 
 #include "VulkanInitializers.hpp"
 
-#define SHADER_PATH "include/resources/shaders/"
+#define SHADER_PATH "resources/shaders/"
 
 #define VK_CHECK_RESULT(f) \
 {\
