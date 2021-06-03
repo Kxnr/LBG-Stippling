@@ -16,7 +16,7 @@ OBJ = $(patsubst %,$(ODIR)/%,$(_OBJ))
 DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
 SRC = $(patsubst %,$(SDIR)/%,$(_SRC))
 
-export VULKAN_SDK=/home/kxnr/src/vulkan/1.2.135.0/x86_64
+export VULKAN_SDK=/home/kxnr/src/vulkan/x86_64
 export LD_LIBRARY_PATH=$VULKAN_SDK/lib:$LD_LIBRARY_PATH
 export VK_LAYER_PATH=$VULKAN_SDK/etc/vulkan/explicit_layer.d
 

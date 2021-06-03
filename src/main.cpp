@@ -22,10 +22,10 @@ int main(int argc, char* argv[]) {
     return -1;
   }
 
-  Params stippleParams(10, .001, .1,
-                       .4, 2, 100,
-                       2000, glm::vec3(255, 255, 255),
-                       1);
+  Params stippleParams(100, .001, .1,
+                       .4, 1.5, 200,
+                       200000, glm::vec3(255, 255, 255),
+                       1.5);
 
   StippleImage stipple(*img1, stippleParams);
   stipple.Solve();
